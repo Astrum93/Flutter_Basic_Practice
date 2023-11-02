@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_basic_practice/practice/FlutterTheme.dart';
+import 'package:flutter_basic_practice/practice/FirstScaffold.dart';
 
 void main() {
   runApp(
@@ -20,7 +20,10 @@ void main() {
       //   ]),
       // ),
 
-      MaterialApp(home: const FlutterTheme(), theme: customTheme));
+      MaterialApp(
+          debugShowCheckedModeBanner: false,
+          home: const FirstScaffold(),
+          theme: customTheme));
   // colorScheme: const ColorScheme.light(
   //   primary: Colors.indigo,
   //   secondary: Colors.green,

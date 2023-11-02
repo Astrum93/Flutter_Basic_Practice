@@ -7,6 +7,8 @@ class FirstScaffold extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.cyan.shade100,
+        leading: const BackButton(),
         actions: [
           IconButton(
             onPressed: () {
