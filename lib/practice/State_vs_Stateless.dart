@@ -9,7 +9,7 @@ class State_vs_Stateless extends StatelessWidget {
       child: Scaffold(
         appBar: AppBar(
           centerTitle: true,
-          title: const Text('This is App bar'),
+          title: const Text('Flutter Stateless vs State'),
         ),
         body: const Column(
           children: [
@@ -31,7 +31,7 @@ class ExampleStateless extends StatelessWidget {
   Widget build(BuildContext context) {
     return Expanded(
       child: Container(
-        color: Colors.red,
+        color: Colors.red.shade200,
       ),
     );
   }
@@ -91,3 +91,5 @@ class _ExampleStatefulState extends State<ExampleStateful> {
     );
   }
 }
+
+

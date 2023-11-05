@@ -7,8 +7,9 @@ class CustomContainer extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.green.shade100,
         centerTitle: true,
-        title: const Text('This is App bar'),
+        title: const Text('This is Custom Container'),
       ),
       body: Center(
         child: Container(

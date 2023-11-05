@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_basic_practice/practice/FirstScaffold.dart';
+import 'package:flutter_basic_practice/practice/CustomContainer.dart';
+import 'package:flutter_basic_practice/practice/State_vs_Stateless.dart';
 
 void main() {
   runApp(
@@ -22,7 +23,7 @@ void main() {
 
       MaterialApp(
           debugShowCheckedModeBanner: false,
-          home: const FirstScaffold(),
+          home: const State_vs_Stateless(),
           theme: customTheme));
   // colorScheme: const ColorScheme.light(
   //   primary: Colors.indigo,
