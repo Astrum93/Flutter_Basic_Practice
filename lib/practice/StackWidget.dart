@@ -8,11 +8,20 @@ class StackWidget extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: const Text('This is App bar'),
+        title: const Text('This is Stack'),
       ),
       body: SingleChildScrollView(
         child: Column(
           children: [
+            const Text(
+              '첫 번째 스택',
+              style: TextStyle(
+                fontSize: 20,
+                color: Colors.black,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+            SizedBox(height: 20),
             Stack(
               children: [
                 Container(

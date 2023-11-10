@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_basic_practice/practice/CustomContainer.dart';
 import 'package:flutter_basic_practice/practice/FlutterInput.dart';
+import 'package:flutter_basic_practice/practice/StackWidget.dart';
 import 'package:flutter_basic_practice/practice/State_vs_Stateless.dart';
 import 'package:flutter_basic_practice/practice/WidgetPlaceScale.dart';
 import 'package:flutter_basic_practice/practice/flutter_input_practice.dart';
+import 'package:flutter_basic_practice/practice/stack_practice.dart';
 
 void main() {
   runApp(
@@ -26,7 +28,7 @@ void main() {
 
       MaterialApp(
           debugShowCheckedModeBanner: false,
-          home: const FlutterInputExample(),
+          home: const StackPractice(),
           theme: customTheme));
   // colorScheme: const ColorScheme.light(
   //   primary: Colors.indigo,
